@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8"/>
+	<title>Formulário</title>
+	<link rel="stylesheet" type="text/css" href="formulario.css">
+</head>
+<body>
+<form name="meuForm" method="post" id="formulario">
+	<div class="box">
+		<h1><center>Formulário de Contato</center></h1>
+		
+		<label>
+			<span>Nome Completo:</span>
+			<input type="text" class="input text" name="nome" id="name" size="35"/>
+		</label>
+		
+		<label>
+			<span>Endereço:</span>
+			<input type="text" class="input text" name="endereco" id="name" size="45"/>
+		</label>
+		
+		<label>
+			<span>Bairro:</span>
+			<input type="text" class="input text" name="bairro" id="name"/>
+		</label>
+		
+		<label>
+			<span>CEP:</span>
+			<input type="text" class="input text" name="cep" size="3" maxlength="9" id="cep"/>
+		</label>
+		
+		<label>
+			<span>Estado:</span>
+			<select>
+				<option value="">Selecione</option>
+				<option value="AC">Acre</option>
+				<option value="AL">Alagoas</option>
+				<option value="AP">Amapá</option>
+				<option value="AM">Amazonas</option>
+				<option value="BA">Bahia</option>
+				<option value="CE">Ceará</option>
+				<option value="DF">Distrito Federal</option>
+				<option value="ES">Espirito Santo</option>
+				<option value="GO">Goiás</option>
+				<option value="MA">Maranhão</option>
+				<option value="MS">Mato Grosso do Sul</option>
+				<option value="MT">Mato Grosso</option>
+				<option value="MG">Minas Gerais</option>
+				<option value="PA">Pará</option>
+				<option value="PB">Paraíba</option>
+				<option value="PR">Paraná</option>
+				<option value="PE">Pernambuco</option>
+				<option value="PI">Piauí</option>
+				<option value="RJ">Rio de Janeiro</option>
+				<option value="RN">Rio Grande do Norte</option>
+				<option value="RS">Rio Grande do Sul</option>
+				<option value="RO">Rondônia</option>
+				<option value="RR">Roraima</option>
+				<option value="SC">Santa Catarina</option>
+				<option value="SP">São Paulo</option>
+				<option value="SE">Sergipe</option>
+				<option value="TO">Tocantins</option>
+			</select>
+		</label>
+		
+		<label>
+			<span>E-mail:</span>
+			<input type="text" class="input text" name="email" id="email"/>
+		</label>
+		
+		<label>
+			<span>Assunto:</span>
+			<input type="text" class="input text" name="assunto" id="subject"/>
+		</label>
+		
+		<label>
+			<span>Mensagem:</span>
+			<textarea class="messagem" name="feedback" id="feedback"></textarea>
+		</label>
+		
+		<label>
+			<span>Enviar arquivo:</span>
+			<input type="file" class="" name="file" id="file"/>
+		</label>	
+			<input type="button" class="button" value="Enviar"/>
+			<input type="button" class="button" value="Limpar"/>
+	</div>
+	
+	</form>
+	</body>
+	</html>

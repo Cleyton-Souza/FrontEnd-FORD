@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+</head>
+<body>
+    <script>
+        console.log("Atividade")
+
+        alert("Receber as notas de 3 alunos diferentes e exibir a média final do aluno")
+
+
+        //entrada de dados
+        const nome = prompt("Informe o nome do aluno:")
+        const nota1 = prompt("Informe a primeira nota do aluno")  //string
+        const nota2 = prompt("Informe a segunda nota do aluno")   //string
+        const nota3 = prompt("Informe a terceira nota do aluno")  //string
+        
+        //processamento de dados
+        const media = (parseInt(nota1) + parseInt(nota2) + parseInt(nota3)) / 3
+
+        //saída de dados
+        console.log("O aluno "+ nome + " obtve média " + media)
+        alert(` A média do aluno ${nome} é de: ${media.toFixed(2)} `) //Interpolação
+        alert(" A média do aluno "+ nome + " é de "+ media) //Concatenação
+
+
+
+
+        //console.log(nome)
+
+        // confirm("Você tem certeza de que " + nome + " é o seu nome") //concatenação
+        // confirm(`Você tem certeza de que ${nome} é o seu nome?`) //interpolação
+
+        // OPERADORES ARITMÉTICOS + - / *
+
+        // /' const primeiroNumeroDigitado = prompt("Digite o primeiro número:") //string
+        // const segundoNumeroDigitado = prompt("Digite o segundo número:") //string
+
+        // const somarPrimeiroSegundoNumero = parseInt(primeiroNumeroDigitado) + parseInt(segundoNumeroDigitado)
+
+        // console.log(somarPrimeiroSegundoNumero)
+
+        // //Atividade
+        // //Receber as notas de 3 alunos diferentes e exibir a média final do aluno
+        // //Exiba o nome do aluno e a nota final do mesmo
+        // //Utilizem o prompt e operadores aritméticos para isso
+
+        
+
+
+    </script>
+    
+</body>
+</html>
